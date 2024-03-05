@@ -1,6 +1,5 @@
 # Navigation
-![millionerGif](https://github.com/NaumenkoVanya/Navigation/assets/95250432/2b25cd9b-1bc1-43f0-a081-e4821c5ab067)
-
+![Альтернативный текст](Navigation/Navigation/millionerGif.gif)
 ![Альтернативный текст](wwbm/Resource/millionerGif.gif)
 ### В разработке участвовали:
 <p align="left"> 

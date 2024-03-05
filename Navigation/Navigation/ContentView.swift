@@ -57,12 +57,20 @@ struct ContentView: View {
     @State private var pathStore = PathStore()
 //    @State private var path = NavigationPath()
     var body: some View {
-        NavigationStack(path: $pathStore.path) {
-            DetailView(number: 0)
-                .navigationDestination(for: Int.self) { i in
-                    DetailView(number: i)
-                }
+        VStack {
+            NavigationStack(path: $pathStore.path) {
+                DetailView(number: 0)
+                    .navigationDestination(for: Int.self) { i in
+                        DetailView(number: i)
+                    }
+            }
+            Image("image")
+                .resizable()
+                .ignoresSafeArea()
+                .scaledToFit()
+                
         }
+        
     }
 }
 

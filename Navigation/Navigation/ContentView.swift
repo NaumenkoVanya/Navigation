@@ -33,21 +33,24 @@ class PathStore {
             print("Failed to save navigation data")
         }
     }
+    func clear() {
+        
+    }
 }
 // MARK: - DetailView
 
 struct DetailView: View {
     var number: Int
-    
 //    @Binding var path: [Int]
     var body: some View {
-        NavigationLink("Go to Random Number", value: Int.random(in: 1 ... 1000))
+        NavigationLink("Go to Random Number", value: Int.random(in: 1 ... 10)) 
             .navigationTitle("Number \(number)")
-//            .toolbar {
-//                Button("Home") {
-//                    path.removeAll()
-//                }
-//            }
+            .toolbar {
+                Button("Home") {
+                    
+                    PathStore().clear()
+                }
+            }
     }
 }
 

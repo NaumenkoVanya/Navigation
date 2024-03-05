@@ -1,5 +1,5 @@
 # Navigation
-![Альтернативный текст](Navigation/Navigation/millionerGif.gif)
+![Альтернативный текст](Navigation/millionerGif.gif)
 ![Альтернативный текст](wwbm/Resource/millionerGif.gif)
 ### В разработке участвовали:
 <p align="left"> 

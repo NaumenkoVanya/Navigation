@@ -1,6 +1,6 @@
 # Navigation
-![Альтернативный текст](Navigation/millionerGif.gif)
-![Альтернативный текст](wwbm/Resource/millionerGif.gif)
+![Альтернативный текст](Navigation/Navigation/millionerGif.gif)
+
 ### В разработке участвовали:
 <p align="left"> 
 <a href="https://github.com/dsm5e">
